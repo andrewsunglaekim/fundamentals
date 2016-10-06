@@ -20,46 +20,48 @@ When you have your code from your previous exercise, follow the instructions bel
 
 2 . Tell both divs to display as inline-block elements.
 
-3 . Create CSS rules (selectors) for #about and #services.
+3 . Add an `id` attribute to the divs. Use `about` for the first and `services` for the second.
 
-4 . Give #about a float of left.
+4 . Create CSS rules (selectors) for `#about` and `#services`.
 
-5 . Give #services a float of right.
+5 . Give `#about` a float of left.
+
+6 . Give `#services` a float of right.
 
 At this point, you'll notice that some things are not so awesome here.
   * The two columns are smushed together.
   * The footer is behaving oddly.
 
-6 . Let's start with the quickest fix. Give the footer a clear value of both.
+7 . Let's start with the quickest fix. Give the footer a clear value of both.
 
-7 . The footer's in the right place, but the two columns are still too close! What do you know about adding whitespace between HTML elements? Currently, #services and #about are 50% of the page width each. Here's some math. You're borrowing from the page's width to add a 2% padding on all four sides, so that each div keeps its total width of 50%. So go ahead and a width of 46% and padding of 2%.
+8 . The footer's in the right place, but the two columns are still too close! What do you know about adding whitespace between HTML elements? Currently, #services and #about are 50% of the page width each. Here's some math. You're borrowing from the page's width to add a 2% padding on all four sides, so that each div keeps its total width of 50%. So go ahead and add a width of 46% and padding of 2%.
 
 Fabulous!
 
-8 . Now let's box up and position the four listed services in the right-hand column.
+9 . Now let's box up and position the four listed services in the right-hand column.
 
-  * Create an li, and give it a float of left.
+  * Create an li rule, and give it a float property with a value of left.
   * Set its width to 50% and its height to 6em.
 
-9 . Give li an outline value of 3px solid #222222.
+10 . Give li an outline value of `3px solid #222222`.
 
-10 . Set its text-align to center, and line-height to 6em.
+11 . Set its text-align to center, and line-height to 6em.
 
 *Well done! The basics of the multicolumn layout are all laid out. All that's left to finish are some visual elements, including color.*
 
-11 . Assign img a width of 480px.
+12 . Assign img a width of 480px.
 
-12 . Flip to your HTML, and wrap a new div, called "hero", around the main image.
+13 . Flip to your HTML, and wrap a new div, called "hero", around the main image.
 
 *Your img might freak out. Don't worry. It's because the "hero" div is grabbing the default div style written for your columns. Let's prevent that from happening. You need to counteract the div's width, margin, and display values.*
 
-13 . In your HTML, wrap a section around both divs: open it after the `</header>` closing tag, and close it before the opening `<footer>` tag.
+14 . In your HTML, wrap a section around both divs: open it after the `</header>` closing tag, and close it before the opening `<footer>` tag.
 
-14 . Create a CSS style for the section. Set its background to #222222, and make its color white. Make the section's overflow:auto.
+15 . Create a CSS style for the section. Set its background to `#222222`, and make its color white. Make the section's overflow:auto.
 
-15 . Set the h2 color to pale yellow: #fffebb. Set h2's border-bottom-color to #fffebb as well.
+16 . Set the h2 color to pale yellow: #fffebb. Set h2's border-bottom-color to #fffebb as well.
 
-16 . Set the li color to black, and its background to white.
+17 . Set the li color to black, and its background to white.
 
 Bravo! Well done. Don't forget to save your code in JSBin so you can come back to it and ask your instructors any questions you might have!
 
